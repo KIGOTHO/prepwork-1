@@ -5,6 +5,8 @@
 # Difficulty: medium.
 
 def nearby_az(string)
+      if string =~ /a.z/ || string =~ /az/  || string =~ /a..z/ || string = ! "z"  # returns nil
+
 end
 
 # These are tests to check that your code is working. After writing
