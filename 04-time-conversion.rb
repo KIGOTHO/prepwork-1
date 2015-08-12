@@ -4,6 +4,14 @@
 # Difficulty: easy.
 
 def time_conversion(minutes)
+    
+       time_in_minutes =  minutes+0.0
+calc_time_in_hours =  time_in_minutes/60
+ time_in_hours= calc_time_in_hours.to_i
+calc_time_in_points = calc_time_in_hours % 1
+calc_time_in_mins = calc_time_in_points*60
+time_in_mins = calc_time_in_mins.to_i
+    minutes = "#{time_in_hours}:#{time_in_mins}"
 end
 
 # These are tests to check that your code is working. After writing
