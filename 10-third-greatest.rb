@@ -4,8 +4,16 @@
 #
 # Difficulty: medium.
 
-def third_greatest(nums)
+def is_power_of_two?(num)
+   
+  if  num % 2 ==! 0
+      puts true
+  else
+      puts false
+  end
 end
+
+is_power_of_two?(1)
 
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.
