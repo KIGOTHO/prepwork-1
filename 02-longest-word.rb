@@ -7,6 +7,8 @@
 # Difficulty: easy.
 
 def longest_word(sentence)
+ sentence = "michael came in yesterday".split(' ').max_by(&:length);
+
 end
 
 # These are tests to check that your code is working. After writing
