@@ -13,6 +13,12 @@
 # Difficulty: medium.
 
 def is_prime?(number)
+    if   number % 2 != 0  && number != 2 && number % 3 !=0 && number != 1 || number ==2 || i == 3
+    puts true
+else 
+    puts false
+    
+end
 end
 
 # These are tests to check that your code is working. After writing

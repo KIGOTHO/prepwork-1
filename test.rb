@@ -287,22 +287,17 @@
 
 #14.
 
-
-
-string = "abcd"
-positions=[3, 1, 2, 0]
-string_replace = string.split("")
-
-positions.zip(string_replace).each do |pos, str|
-    
-  string[pos.to_i] = str 
-    
-
-  end
-puts string
-
-
-
+#string = "abcd"
+#positions=[3, 1, 2, 0]
+#string_replace = string.split("")
+#
+#positions.zip(string_replace).each do |pos, str|
+#    
+#  string[pos.to_i] = str 
+#    
+#
+#  end
+#puts string
 
 #str = "abcdef"
 #st = []
@@ -322,8 +317,66 @@ puts string
 #
 #pos=pos[0]
 #st2=str[3]
-#
-#
+
+
+
+
+
+
+
+
+#15.
+
+i=9
+
+if   i % 2 != 0  && i != 2 && i % 3 !=0 &&i != 1 || i ==2 || i == 3
+    puts true
+else 
+    puts false
+    
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
