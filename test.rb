@@ -264,25 +264,66 @@
 
 
 
+#13.
 
-def capitalize_words(string)
+#
+#def capitalize_words(string)
+#    
+#string = string.gsub(/\w+/,&:capitalize)
+#
+#end
+#
+#
+#puts(
+#  'capitalize_words("this is a sentence") == "This Is A Sentence": ' +
+#  (capitalize_words("this is a sentence") == "This Is A Sentence").to_s
+#)
+#puts(
+#  'capitalize_words("mike bloomfield") == "Mike Bloomfield": ' +
+#  (capitalize_words("mike bloomfield") == "Mike Bloomfield").to_s
+#)
+#
+
+
+#14.
+
+
+
+string = "abcd"
+positions=[3, 1, 2, 0]
+string_replace = string.split("")
+
+positions.zip(string_replace).each do |pos, str|
     
-string = string.gsub(/\w+/,&:capitalize)
+  string[pos.to_i] = str 
+    
 
-end
-
-
-puts(
-  'capitalize_words("this is a sentence") == "This Is A Sentence": ' +
-  (capitalize_words("this is a sentence") == "This Is A Sentence").to_s
-)
-puts(
-  'capitalize_words("mike bloomfield") == "Mike Bloomfield": ' +
-  (capitalize_words("mike bloomfield") == "Mike Bloomfield").to_s
-)
+  end
+puts string
 
 
 
+
+#str = "abcdef"
+#st = []
+#pos=[4,3,2,1]
+#
+#puts i=0
+#while i < str.length
+#    puts  "value of i""#{pos[i]}"
+#  str[i] 
+#    puts "pushed i to empty""#{st.push(str.pos[i])}"
+#    i+=1
+#puts  "next value of i""#{pos[i]}"
+#puts "containing" "#{st}"
+
+#end
+#string = str.gsub(str[0], str[3])
+#
+#pos=pos[0]
+#st2=str[3]
+#
+#
 
 
 

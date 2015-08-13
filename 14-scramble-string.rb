@@ -5,8 +5,15 @@
 # Difficulty: medium.
 
 def scramble_string(string, positions)
-end
 
+string = "abcd"
+positions=[3, 1, 2, 0]
+puts string_replace = string.split("")
+
+positions.zip(string_replace).each do |pos, str|
+  string[pos.to_i] = str
+  end
+end
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.
 
@@ -15,6 +22,6 @@ puts(
   (scramble_string("abcd", [3, 1, 2, 0]) == "dbca").to_s
 )
 puts(
-  'scramble_string("markov", [5, 3, 1, 4, 2, 0]) == "vkaorm"): ' +
-  (scramble_string("markov", [5, 3, 1, 4, 2, 0]) == "vkaorm").to_s
+  'scramble_string("markov", [5, 2, 4, 1, 3, 0]) == "vkaorm"): ' +
+  (scramble_string("markov", [5, 2, 4, 1, 3, 0]) == "vkaorm").to_s
 )
