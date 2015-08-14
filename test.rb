@@ -94,6 +94,10 @@
 
 
 
+
+
+
+
 #5.
 
 #def count_vowels(string)
@@ -120,6 +124,13 @@
 #puts('palindrome?("abc") == false: ' + (palindrome?('abc') == false).to_s)
 #puts('palindrome?("abcba") == true: ' + (palindrome?('abcba') == true).to_s)
 #puts('palindrome?("z") == true: ' + (palindrome?('z') == true).to_s)
+
+
+
+
+
+
+
 
 
 #7.
@@ -228,6 +239,13 @@
 #end
 
 
+
+
+
+
+
+
+
 #12
 
 #x=6734
@@ -264,6 +282,12 @@
 
 
 
+
+
+
+
+
+
 #13.
 
 #
@@ -283,6 +307,13 @@
 #  (capitalize_words("mike bloomfield") == "Mike Bloomfield").to_s
 #)
 #
+
+
+
+
+
+
+
 
 
 #14.
@@ -325,49 +356,67 @@
 
 
 
-#15.
+##15.
+#
+#i=9
+#
+#if   i % 2 != 0  && i != 2 && i % 3 !=0 &&i != 1 || i ==2 || i == 3
+#    puts true
+#else 
+#    puts false
+#    
+#end
+#
+#
 
-i=9
 
-if   i % 2 != 0  && i != 2 && i % 3 !=0 &&i != 1 || i ==2 || i == 3
-    puts true
-else 
-    puts false
+
+
+
+
+#
+#
+# string = "michaelnjomo"
+#reverse = ""
+#i=0
+#
+#while i < string.length
+# 
+#     string[i]
+#
+#    
+#    reverse = string[i] + reverse
+#    i+=1
+#end
+#
+#
+#puts reverse
+
+
+
+
+def reverse(string)
     
+    while i < string.length
+ 
+     reverse_st = string[i] + reverse_st
+  
+    i+=1
 end
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return reverse_st
+    
+end
+puts(
+  'reverse("abc") == "cba": ' + (reverse("abc") == "cba").to_s
+)
+puts(
+  'reverse("a") == "a": ' + (reverse("a") == "a").to_s
+)
+puts(
+  'reverse("") == "": ' + (reverse("") == "").to_s
+)
 
 
 
