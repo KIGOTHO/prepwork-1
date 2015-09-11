@@ -393,32 +393,32 @@
 #puts reverse
 
 
-
-
-def reverse(string)
-    
+#
+#
+#def reverse(string)
+#    
     while i < string.length
  
      reverse_st = string[i] + reverse_st
   
     i+=1
-end
-
-
-    return reverse_st
-    
-end
-puts(
-  'reverse("abc") == "cba": ' + (reverse("abc") == "cba").to_s
-)
-puts(
-  'reverse("a") == "a": ' + (reverse("a") == "a").to_s
-)
-puts(
-  'reverse("") == "": ' + (reverse("") == "").to_s
-)
-
-
+#end
+#
+#
+#    return reverse_st
+#    
+#end
+#puts(
+#  'reverse("abc") == "cba": ' + (reverse("abc") == "cba").to_s
+#)
+#puts(
+#  'reverse("a") == "a": ' + (reverse("a") == "a").to_s
+#)
+#puts(
+#  'reverse("") == "": ' + (reverse("") == "").to_s
+#)
+#
+#
 
 
 

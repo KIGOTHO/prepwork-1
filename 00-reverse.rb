@@ -5,7 +5,16 @@
 #
 # Difficulty: easy.
 
+
 def reverse(string)
+    
+    
+        while i < string.length
+ 
+     
+reverse_st = string[i] + reverse_st
+  
+    i+=1
 end
 
 # These are tests to check that your code is working. After writing
